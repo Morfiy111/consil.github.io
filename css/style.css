@@ -283,6 +283,33 @@ button.btn-close {
     display: inline-block;
 }
 
+.flex-documents {
+    display: flex;
+    justify-content: space-around;
+}
+
+.flex-document-item {
+    width: 24%;
+    text-align: center;
+}
+
+.flex-document-item img {
+    width: 100%;
+}
+
+.documents-main,
+.subtitle-block {
+    margin-bottom: 40px;
+}
+
+.flex-document-item img {
+    margin-bottom: 20px;
+}
+
+.document-years {
+    margin: -20px 0 20px 0;
+}
+
 @media(max-width:1199px) {
     .main-catalog-title {
         height: 75px;
