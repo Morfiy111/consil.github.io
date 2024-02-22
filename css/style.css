@@ -310,6 +310,15 @@ button.btn-close {
     margin: -20px 0 20px 0;
 }
 
+.subtitle-block {
+    text-align: center;
+}
+
+.grey-section-block {
+    background-color: #f6f7f8;
+    padding: 40px 0;
+}
+
 @media(max-width:1199px) {
     .main-catalog-title {
         height: 75px;
