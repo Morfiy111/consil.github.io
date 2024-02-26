@@ -245,6 +245,7 @@ button.btn-close {
     justify-content: space-between;
     margin-bottom: 60px;
     align-items: flex-start;
+    flex-wrap: wrap;
 }
 
 .main-photo-text {
@@ -529,17 +530,9 @@ button.btn-close {
         flex-wrap: wrap;
     }
 
-    .main-page-contacts {
-        flex-wrap: wrap;
-
-    }
-
-    .map-block,
-    .contact-block {
+    .main-photo-img,
+    .main-photo-text {
         width: 100%;
-    }
-
-    .map-block {
         margin-bottom: 20px;
     }
 }
@@ -550,9 +543,12 @@ button.btn-close {
         width: 120px;
     }
 
-    .card-image-item {
+    .flex-document-item {
         width: 100%;
-        margin-bottom: 20px;
+    }
+
+    .questions-block h4 {
+        height: auto;
     }
 }
 
