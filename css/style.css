@@ -197,7 +197,7 @@ button.btn-close {
 }
 
 .footer-page {
-    background-color: #5c7284;
+    background-color: #00489a;
     padding: 40px 0;
     margin-top: 50px;
 }
@@ -355,10 +355,70 @@ button.btn-close {
 
 .questions-block h4 {
     margin-bottom: 40px;
+    height: 86px;
 }
 
 .questions-block p {
     text-align: left;
+}
+
+.calls-block .calls-block-grey {
+    background-color: #f6f7f8;
+}
+
+.calls-block .flex-document-item {
+    padding: 10px 15px;
+}
+
+.calls-block {
+    margin-bottom: 60px;
+}
+
+.hr-dotted,
+.hr-dotted:before,
+.hr-dotted:after {
+    content: "";
+    background: #00489a;
+    display: block;
+    height: 14px;
+    width: 14px;
+    border-radius: 50%;
+    position: absolute;
+    animation: anim-hr 6s linear infinite;
+    border: 0;
+    overflow: visible;
+}
+
+.hr-dotted:before {
+    left: -32px;
+}
+
+.hr-dotted:after {
+    left: 32px;
+}
+
+.hr-dotted {
+    position: relative;
+    margin: 30px auto;
+    height: 14px !important;
+}
+
+.text-center {
+    text-align: center;
+}
+
+@keyframes anim-hr {
+    0% {
+        background: #BFE2FF;
+    }
+
+    50% {
+        background: #00489a;
+    }
+
+    100% {
+        background: #BFE2FF;
+    }
 }
 
 @media(max-width:1199px) {
