@@ -244,6 +244,7 @@ button.btn-close {
     display: flex;
     justify-content: space-between;
     margin-bottom: 60px;
+    align-items: flex-start;
 }
 
 .main-photo-text {
@@ -422,12 +423,17 @@ button.btn-close {
 }
 
 @media(max-width:1199px) {
-    .main-catalog-title {
-        height: 75px;
+    .header-logo a {
+        white-space: nowrap;
     }
 
-    .main-catalog-title a {
-        font-size: 16px;
+    .header-contacts-row {
+        flex-wrap: wrap;
+    }
+
+    .header-phones a,
+    .header-adress {
+        font-size: 18px;
     }
 }
 
