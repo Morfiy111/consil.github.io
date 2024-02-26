@@ -466,6 +466,19 @@ button.btn-close {
     .main-catalog-title {
         height: 50px;
     }
+
+    .flex-document-item {
+        width: 48%;
+        margin-bottom: 40px;
+    }
+
+    .flex-documents {
+        flex-wrap: wrap;
+    }
+
+    .footer-flex-block {
+        flex-wrap: wrap;
+    }
 }
 
 @media(max-width: 767px) {
