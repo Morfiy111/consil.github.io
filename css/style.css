@@ -317,6 +317,7 @@ button.btn-close {
 .grey-section-block {
     background-color: #f6f7f8;
     padding: 40px 0;
+    margin-bottom: 40px;
 }
 
 .fact-preview {
@@ -345,6 +346,19 @@ button.btn-close {
 .fact-title {
     margin: 10px 0 20px 0;
     font-weight: bold;
+}
+
+.footer-flex-block .header-logo a {
+    color: #00489a;
+    margin-bottom: 0;
+}
+
+.questions-block h4 {
+    margin-bottom: 40px;
+}
+
+.questions-block p {
+    text-align: left;
 }
 
 @media(max-width:1199px) {
