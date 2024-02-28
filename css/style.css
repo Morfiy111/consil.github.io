@@ -262,8 +262,9 @@ button.btn-close {
     bottom: 0;
     right: 0;
     left: 0;
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.8);
     padding: 10px 20px;
+    font-weight: bold;
 }
 
 .photo-main-description span {
@@ -274,6 +275,10 @@ button.btn-close {
 
 .main-photo-img img {
     width: 100%;
+}
+
+.text-margin {
+    margin-bottom: 40px;
 }
 
 .main-photo-text h3 {
